@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f17;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 40px 20px;
+  background: #111827;
+}
+
+.hero {
+  padding: 60px 20px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #7c3aed;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6d28d9;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111827;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.demo {
+  padding: 40px 20px;
+  background: #111827;
+}
+
+footer {
+  padding: 20px;
+  background: #0b0f17;
+  font-size: 14px;
+}
